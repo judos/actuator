@@ -1,0 +1,1 @@
+mklink /j "mods/actuator_0.5.0" "D:\modding\factorio\actuator\source"
