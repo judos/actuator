@@ -128,10 +128,10 @@ function findTarget(entity,data)
 	for _,targetEntity in ipairs(adj) do
 		if not entityBlacklist[targetEntity.name] and not entityTypeBlacklist[targetEntity.type] then
 			data.target = targetEntity
-			print ("found: "..targetEntity.name.. " of type "..targetEntity.type)
+			info("found: "..targetEntity.name.. " of type "..targetEntity.type)
 			return true
 		else
-			print ("can't use entity "..targetEntity.name.. " of type "..targetEntity.type)
+			info("can't use entity "..targetEntity.name.. " of type "..targetEntity.type)
 		end
 	end
 	return false 
