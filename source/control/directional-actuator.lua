@@ -88,7 +88,7 @@ function setIndicator(entity,data)
 	end
 	local color = "indicator-orange"
 	if data.target ~= nil and data.target.valid then
-		print("setIndicator: "..data.target.name)
+		info("setIndicator: "..data.target.name)
 		if data.state then
 			color = "indicator-green"
 		else

@@ -1,6 +1,6 @@
 {
   "name": "actuator",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "title": "Actuator",
   "author": "judos, original source by Kikkers",
   "description": "Adds a structure that conditionally toggles the activity of an adjacent object.",
